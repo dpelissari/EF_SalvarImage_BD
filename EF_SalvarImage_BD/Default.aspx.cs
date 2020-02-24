@@ -83,6 +83,21 @@ namespace EF_SalvarImage_BD
             }
         }
 
+        protected void btnExibirFoto_Click(object sender, System.EventArgs e)
+        {
+            try
+            {
+                int codigo = Convert.ToInt32(GridView.SelectedRow.Cells[1].Text);
+                byte[] bytes = (byte[])carregaImagem(codigo);
+                string base64String = Convert.ToBase64String(bytes, 0, bytes.Length);
+                imgFoto.ImageUrl = "data:image/png;base64," + base64String;
+            }
+            catch (Exception ex)
+            {
+                lblStatus.Text = " Erro " + ex.Message;
+            }
+        }
+
         private byte[] carregaImagem(int id)
         {
             try

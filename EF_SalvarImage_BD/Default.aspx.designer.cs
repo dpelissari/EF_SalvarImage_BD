@@ -69,6 +69,15 @@ namespace EF_SalvarImage_BD
         protected global::System.Web.UI.WebControls.Button btnExibirDados;
 
         /// <summary>
+        /// Controle btnExibirFoto.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnExibirFoto;
+
+        /// <summary>
         /// Controle GridView.
         /// </summary>
         /// <remarks>
@@ -76,5 +85,14 @@ namespace EF_SalvarImage_BD
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView;
+
+        /// <summary>
+        /// Controle imgFoto.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgFoto;
     }
 }
