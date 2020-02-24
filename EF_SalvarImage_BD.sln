@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_SalvarImage_BD", "EF_SalvarImage_BD\EF_SalvarImage_BD.csproj", "{16E44B2F-ACB7-4BD6-8D3B-BDC92F1644E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16E44B2F-ACB7-4BD6-8D3B-BDC92F1644E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E44B2F-ACB7-4BD6-8D3B-BDC92F1644E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E44B2F-ACB7-4BD6-8D3B-BDC92F1644E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E44B2F-ACB7-4BD6-8D3B-BDC92F1644E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2847868B-F7F4-49AC-8B52-161CA2F3B4B7}
+	EndGlobalSection
+EndGlobal
